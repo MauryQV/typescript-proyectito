@@ -1,0 +1,36 @@
+# Directorios de Node
+node_modules/
+dist/
+build/
+.cache/
+.nyc_output/
+coverage/
+
+# Archivos de configuración y entorno
+.env
+.env.development
+.env.production
+.env.test
+.env.*.local
+.DS_Store # macOS specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de log
+*.log
+logs/
+*.log.txt
+
+# Archivos de editor de código (VS Code, etc.)
+.vscode/
+.idea/ # WebStorm/IntelliJ
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+~*
